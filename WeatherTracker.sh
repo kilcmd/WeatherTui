@@ -7,9 +7,9 @@
 # ═══════════════════════════════════════════════════════════
 # Just change these values to your location:
 
-CITY="Atlanta"                    # Main city name
-STATE="Georgia"                   # Your state (optional, for display)
-LOCATION="Stockbridge,Georgia"    # Full location for detailed weather
+CITY="NewYork"                    # Main city name
+#STATE="New York"                   # Your state (optional, for display)
+#LOCATION="New York,New York"    # Full location for detailed weather
 
 # ═══════════════════════════════════════════════════════════
 # ⚙️  SETTINGS - CUSTOMIZE YOUR DISPLAY
@@ -34,7 +34,7 @@ show_weather() {
     echo ""
     
     # Display location
-    echo "  📍  Location:  $CITY, $STATE"
+ #   echo "  📍  Location:  $CITY, $STATE"
     echo ""
     echo ""
     
