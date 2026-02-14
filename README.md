@@ -1,34 +1,24 @@
-# WeatherTui
-A TUI Version Of A Weather App using WTTR
-#!/bin/bash
-# Interactive Weather Monitor - Enhanced Edition
-# Updates every hour, press 'r' to refresh manually
+Please Read In Full. 
+
+To adjust the location of the app, you need to edit the lat and long here. 
 
 # ═══════════════════════════════════════════════════════════
 # 📍 LOCATION SETTINGS - EASY TO CUSTOMIZE!
 # ═══════════════════════════════════════════════════════════
-# Just change these values to your location:
+# For weather.gov, we need latitude and longitude
+# You can find yours at: https://www.latlong.net/
 
-CITY="Atlanta"                    # Main city name
-STATE="Georgia"                   # Your state (optional, for display)
-LOCATION="Stockbridge,Georgia"    # Full location for detailed weather
+LATITUDE="40.7128"      # New york, NY latitude
+LONGITUDE="-74.0060"    # New york, NY longitude
+CITY="New York"        # Display name
+STATE="New York"         # Display name
 
-# Examples of how to set different locations:
-# CITY="NewYork"
-# CITY="LosAngeles" 
-# CITY="Chicago"
-# LOCATION="Brooklyn,NewYork"
-# LOCATION="SantaMonica,California"
 
-# ═══════════════════════════════════════════════════════════
-# ⚙️  SETTINGS - CUSTOMIZE YOUR DISPLAY
-# ═══════════════════════════════════════════════════════════
+When the file runs it creates a cache file.  
+This file is located in your /tmp/ 
+It's going to look something like this. 
+tmpt/WeatherApp-ny.sh <- confirm.  
 
-UPDATE_INTERVAL=3600    # Time between auto-updates (in seconds)
-                        # 3600 = 1 hour
-                        # 1800 = 30 minutes
-                        # 7200 = 2 hours
+If you plan to run multiple instances of the app, edit line 25 in the app. 
+CACHE_FILE="/tmp/weather_cache_newyork_$USER.txt" <- Change the city name.  
 
-# ═══════════════════════════════════════════════════════════
-# 🎨 MAIN PROGRAM - NO NEED TO EDIT BELOW THIS LINE
-# ═══════════════════════════════════════════════════════════
