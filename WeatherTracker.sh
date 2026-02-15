@@ -28,7 +28,7 @@ CACHE_MAX_AGE=900       # Cache is valid for 15 minutes (900 seconds)
                         # This prevents hammering if you press 'r' repeatedly
 
 # User agent (weather.gov REQUIRES this - it's polite!)
-USER_AGENT="(WeatherMonitor-Personal, your-k3rn3l.k00la1d@gmail.com)"
+USER_AGENT="(WeatherMonitor-Personal, your-email)"
 
 # ═══════════════════════════════════════════════════════════
 # 🎨 COLORS
