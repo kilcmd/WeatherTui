@@ -1,5 +1,8 @@
 Please Read In Full. 
 
+When you create the script please make sure to make the script executable. 
+chmod +x nameofscript.sh
+
 To adjust the location of the app, you need to edit the lat and long here. 
 
 # ═══════════════════════════════════════════════════════════
