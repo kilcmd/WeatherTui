@@ -3,6 +3,11 @@ Please Read In Full.
 When you create the script please make sure to make the script executable. 
 chmod +x nameofscript.sh
 
+Make sure to enter your email address on line 31
+It doesn't have to be your personal one, but you need one.
+# User agent (weather.gov REQUIRES this - it's polite!)
+USER_AGENT="(WeatherMonitor-Personal, your-email.com)"
+
 To adjust the location of the app, you need to edit the lat and long here. 
 
 # ═══════════════════════════════════════════════════════════
